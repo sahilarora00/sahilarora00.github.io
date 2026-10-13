@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Software developer portfolio — React, TypeScript, Node.js, Microsoft 365 and AI-powered applications." />
+  <title>Sahil Arora | Software Developer</title>
+  <style>
+    :root { --bg:#0b1020; --panel:#121a2e; --text:#edf2ff; --muted:#a8b3cc; --accent:#72e0c1; --line:#26324c; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(circle at 85% 5%,#1a3150 0,transparent 28%),var(--bg); color:var(--text); line-height:1.65; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .wrap { width:min(1080px,92%); margin:auto; }
+    header { padding:22px 0; border-bottom:1px solid var(--line); position:sticky; top:0; background:rgba(11,16,32,.88); backdrop-filter:blur(14px); z-index:10; }
+    nav { display:flex; justify-content:space-between; align-items:center; gap:18px; flex-wrap:wrap; }
+    .brand { font-weight:800; letter-spacing:.3px; color:var(--text); }
+    .navlinks { display:flex; gap:20px; flex-wrap:wrap; font-size:.95rem; }
+    .hero { padding:90px 0 68px; display:grid; grid-template-columns:1.5fr .8fr; gap:38px; align-items:center; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:2px; font-size:.78rem; font-weight:800; }
+    h1 { font-size:clamp(2.5rem,6vw,4.6rem); line-height:1.06; margin:15px 0 20px; letter-spacing:-2px; }
+    h2 { font-size:clamp(1.7rem,3vw,2.4rem); margin:0 0 22px; letter-spacing:-.7px; }
+    h3 { margin:0 0 8px; }
+    p { color:var(--muted); }
+    .lead { font-size:1.12rem; max-width:700px; }
+    .buttons { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    .btn { display:inline-block; padding:11px 17px; border-radius:10px; border:1px solid var(--line); font-weight:700; }
+    .primary { background:var(--accent); color:#07131a; border-color:var(--accent); }
+    .profile-card,.card { background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018)); border:1px solid var(--line); border-radius:18px; padding:24px; }
+    .profile-card .big { font-size:3.4rem; font-weight:850; color:var(--accent); line-height:1; }
+    .mini { color:var(--muted); font-size:.92rem; }
+    section { padding:48px 0; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .taglist { display:flex; gap:9px; flex-wrap:wrap; }
+    .tag { border:1px solid var(--line); background:#10182a; padding:7px 11px; border-radius:999px; color:#dce6ff; font-size:.9rem; }
+    .card p { margin-bottom:0; }
+    .project-label { font-size:.78rem; color:var(--accent); text-transform:uppercase; letter-spacing:1px; font-weight:800; }
+    .contact { display:flex; flex-wrap:wrap; gap:18px; }
+    footer { border-top:1px solid var(--line); padding:25px 0 38px; color:var(--muted); font-size:.9rem; }
+    @media(max-width:760px) { .hero,.grid,.two { grid-template-columns:1fr; } .hero { padding-top:55px; } header { position:static; } .navlinks { gap:12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="#home">Sahil Arora<span style="color:var(--accent)">.</span></a>
+        <div class="navlinks">
+          <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" id="home">
+      <div>
+        <div class="eyebrow">Software Developer · React · Microsoft 365 · AI</div>
+        <h1>Building useful products with clean, reliable code.</h1>
+        <p class="lead">I’m a software developer with 4+ years of experience building and improving production applications. I work across frontend development, APIs, Microsoft 365 integrations, and AI-powered features.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">Explore my work</a>
+          <a class="btn" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <aside class="profile-card">
+        <div class="big">4+</div>
+        <h3>Years of experience</h3>
+        <p>Product engineering, feature development, production troubleshooting, and collaboration with cross-functional teams.</p>
+        <div class="taglist"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">Azure OpenAI</span></div>
+      </aside>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p class="lead">I enjoy turning product requirements into practical, user-friendly features. My experience includes working on helpdesk and ticketing software, improving existing workflows, troubleshooting production issues, and collaborating with teammates to ship reliable changes. I’m interested in remote opportunities where I can contribute through hands-on engineering and technical ownership.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical skills</h2>
+      <div class="taglist">
+        <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">REST APIs</span><span class="tag">SharePoint Online</span><span class="tag">SPFx</span><span class="tag">Microsoft Graph</span><span class="tag">Azure OpenAI</span><span class="tag">Power Platform</span><span class="tag">Git</span><span class="tag">Production debugging</span><span class="tag">Team collaboration</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected work</h2>
+      <p>Replace these summaries with public, shareable projects or demos. Do not include confidential employer code or customer data.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="project-label">Product engineering</div>
+          <h3>Helpdesk & Ticketing Workflows</h3>
+          <p>Worked on UI improvements, ticket grid workflows, search, permissions, notifications, and production bug fixes for a helpdesk product.</p>
+        </article>
+        <article class="card">
+          <div class="project-label">Microsoft ecosystem</div>
+          <h3>SharePoint & Microsoft 365 Integrations</h3>
+          <p>Built and maintained frontend experiences and integrations involving SharePoint, SPFx, Microsoft Graph, and Power Platform.</p>
+        </article>
+        <article class="card">
+          <div class="project-label">AI-enabled features</div>
+          <h3>AI-powered Product Experiences</h3>
+          <p>Contributed to AI-related application features and explored integrations using Azure OpenAI. Add only details you can discuss publicly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Software Developer / Product Engineer</h3>
+        <p class="mini">Current role · Cubic Logics · Add your exact employment dates</p>
+        <ul>
+          <li>Develop and improve production features using React and TypeScript.</li>
+          <li>Investigate and resolve UI, workflow, and integration issues.</li>
+          <li>Work with APIs and Microsoft 365 technologies including SharePoint and Microsoft Graph.</li>
+          <li>Collaborate with teammates on feature delivery, testing, and release readiness.</li>
+        </ul>
+        <p class="mini">Edit these bullets so they accurately reflect your own responsibilities and achievements.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let’s connect</h2>
+      <p>If you’re hiring for a software engineering role or want to discuss a product challenge, feel free to reach out.</p>
+      <div class="contact">
+        <a class="btn primary" href="mailto:ADD_YOUR_EMAIL_ADDRESS">Email me</a>
+        <a class="btn" href="https://github.com/sahilarora00" target="_blank" rel="noopener">GitHub profile</a>
+        <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="mini">Before publishing: replace your name, email, GitHub, LinkedIn, company name, dates, and project details.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">© <span id="year"></span> Sahil Arora. Built with HTML and CSS.</div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
